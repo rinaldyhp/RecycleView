@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     val tanggallahir = this.findViewById<TextView>(R.id.txtTanggalLahir)
                     val btn = this.findViewById<Button>(R.id.btnClose)
 
-                    image.setImageResource(item.foto ?:0)
+                    image.setImageResource(item?.foto ?:0)
                     nama.text = "${item?.nama}"
                     posisi.text = "${item?.posisi}"
                     tinggi.text = "${item?.tinggi}"

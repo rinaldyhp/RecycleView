@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recycleview">
         <activity
-            android:name=".SplashScreen"
-            android:exported="true" >
+            android:name=".Profile"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
 
+        </activity>
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +28,9 @@
             </intent-filter>
         </activity>
 
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
         </activity>
     </application>
 
